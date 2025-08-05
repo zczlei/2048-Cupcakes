@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Cupcakes - Free Online Puzzle Games to Play When Bored</title>
+    <meta name="description" content="Fun twist on classic 2048 game! Merge tasty treats in free unblocked version, ideal for puzzle lovers. Play online anytime, explore variations, chase high scores. Start now!">
+    <meta name="keywords" content="2048,2048 cupcakes,game,score,play,puzzle,unblocked,variations,themes,kids,cubes,versions">
+    <meta property="og:title" content="2048 Cupcakes - Free Online Puzzle Games to Play When Bored">
+    <meta property="og:description" content="Fun twist on classic 2048 game! Merge tasty treats in free unblocked version, ideal for puzzle lovers. Play online anytime, explore variations, chase high scores. Start now!">
+    <meta poperty="og:type" content="website">
+    <meta property="og:locale" content="EN">
+    <meta property="og:url" content="https://2048cupcakes.art">
+    <meta property="og:site name" content="2048 Cupcakes - Free Online Puzzle Games to Play When Bored">
+    <link rel="canonical" href="https://2048cupcakes.art">
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
+    <!-- Bootstrap CSS v4.6.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" onerror="this.onerror=null;this.href='/css/bootstrap.min.css';">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" onerror="this.onerror=null;this.href='/css/all.min.css';">
+    <!-- Custom CSS -->
+    <link href="/style/main.css" rel="stylesheet" type="text/css">
+    <link href="/css/title-cupcakes.css" rel="stylesheet" type="text/css">
+    <link href="/css/styles.css?t=3" rel="stylesheet">
+    <script type="application/ld+json">
+    [
+      {
+        "@context":"https://schema.org",
+        "@type":"SoftwareApplication",
+        "name":"2048 Cupcakes",
+        "url":"http://192.168.1.145:8000/",
+        "description":"Fun twist on classic 2048 game! Merge tasty treats in free unblocked version, ideal for puzzle lovers. Play online anytime, explore variations, chase high scores. Start now!",
+        "image":"https://all2048.com/media-files/games/1/cupcakes/thumbnail-665c81244f59a.jpg",
+        "inLanguage":"en-US",
+        "author":{
+          "@type":"Organization",
+          "name":"2048 CUPCAKES"
+        },
+        "applicationCategory":"GameApplication",
+        "operatingSystem":"any",
+        "aggregateRating":{
+          "@type":"AggregateRating",
+          "worstRating":1,
+          "bestRating":5,
+          "ratingValue":"4.62",
+          "ratingCount":"7309"
+        },
+        "offers":{
+          "@type":"Offer",
+          "category":"free",
+          "price":0,
+          "priceCurrency":"USD"
+        },
+        "potentialAction":[
+          {
+            "@type":"PlayAction",
+            "name": "Play Game",
+            "target":[
+              "http://192.168.1.145:8000/"
+            ]
+          }
+        ]
+      },
+      {
+        "@context":"https://schema.org",
+        "@type":"BreadcrumbList",
+        "itemListElement":[
+          {
+            "@type":"ListItem",
+            "position":0,
+            "name":"2048 Cupcakes",
+            "item":"http://192.168.1.145:8000/"
+          }
+        ]
+      },
+      {
+        "@context":"https://schema.org",
+        "@type":"WebSite",
+        "url":"http://192.168.1.145:8000/",
+        "name":"2048 Cupcakes",
+        "description":"Play 2048 games online",
+        "potentialAction":[
+          {
+            "@type":"SearchAction",
+            "target":{
+              "@type":"EntryPoint",
+              "urlTemplate":"https://cse.google.com/cse?cx=2209f055bfb1f48b5#gsc.tab=0&gsc.q={search_term_string}&gsc.sort=&gsc.page=1"
+            },
+            "query-input":"required name=search_term_string"
+          }
+        ],
+        "inLanguage":"en-US"
+      }
+    ]
+    </script>
+</head>
+<body class="home-page">
+    <div id="side-menu" class="side-panel">
+        <a href="javascript:void(0)" class="close-btn">&times;</a>
+        <ul class="side-panel-nav">
+             <li><a href="/classic-2048">Classic</a></li>
+             <li><a href="/">Cupcakes</a></li>
+             <li><a href="/taylor-swift-2048">Taylor Swift</a></li>
+             <li><a href="/">Doge</a></li>
+             <li><a href="/">Cats</a></li>
+             <li><a href="/">Custorm</a></li>
+             <!-- <li><a href="/">Minecraft</a></li>
+             <li><a href="/">Princess</a></li>
+             <li><a href="/">Pokemon</a></li>
+             <li><a href="/">Nba</a></li>
+             <li><a href="/">Tiles Generator</a></li> -->
+             
+        </ul>
+        <div class="side-panel-footer">
+            <a href="user_agreement.html">User Agreement</a>
+            <span>|</span>
+            <a href="privacy_policy.html">Privacy Policy</a>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container-fluid">
+            <!-- Desktop Layout -->
+            <div class="row align-items-center d-none d-lg-flex" style="width:100%;">
+                <!-- Logo and Language Selector -->
+                <div class="col-lg-2">
+                    <div class="d-flex align-items-center">
+                        <a href="/">
+                            <img src="/img/logo.png" alt="2048 Cupcakes" title="2048 Cupcakes" class="logo me-2">
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <div class="col-lg-8">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="collapse navbar-collapse d-flex" id="navbarNav">
+                            <ul class="navbar-nav d-flex">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/classic-2048">Classic</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/">Cupcakes <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/taylor-swift-2048">Taylor Swift</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Doge</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Cats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Custorm</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="">Minecraft</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Princess</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Pokemon</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Nba</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Tiles Generator</a>
+                                </li> -->
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Search Bar -->
+                <div class="col-lg-2">
+                    <div class="search-container">
+                        <form id="top-search-form" class="search-form">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-input" placeholder="search..." aria-label="search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary search-btn" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile Layout -->
+            <div class="row align-items-center d-lg-none" style="width:100%;">
+                <!-- Top Row: Logo, Language, Hamburger -->
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <!-- Logo and Language -->
+                        <div class="d-flex align-items-center">
+                            <a href="/"><img src="/img/logo.png"  alt="2048 Cupcakes" title="2048 Cupcakes" class="logo me-2"></a>
+                        </div>
+                        
+                        <!-- Hamburger Menu -->
+                        <a href="#" class="menu-bar" onclick="toggleSideMenu()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Bottom Row: Search Bar -->
+                <div class="col-12">
+                    <div class="search-container">
+                        <form id="top-search-form" class="search-form">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-input" placeholder="search..." aria-label="search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary search-btn" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="heading">
+              <h1 class="title">2048 Cupcakes</h1>
+              <div class="scores-container">
+                <div class="score-container">0</div>
+                <div class="best-container">0</div>
+              </div>
+            </div>
+
+            <div class="above-game" style="margin-top:10px;">
+              <p class="game-intro">Play the 2048 Cupcakes!</p>
+              <a class="restart-button">New Game</a>
+            </div>
+
+            <div class="game-container">
+              <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <a class="keep-playing-button">Keep going</a>
+                  <a class="retry-button">Try again</a>
+                </div>
+              </div>
+
+              <div class="grid-container">
+                <div class="grid-row">
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                  <div class="grid-cell"></div>
+                </div>
+              </div>
+
+              <div class="tile-container">
+
+              </div>
+            </div>
+           </div>
+    </main>
+    <section class="section-container0">
+        <div class="theme-color">
+            <h2>
+                Themes
+            </h2>
+            <div id="csbtns">
+                <span id="csbtn_default" onclick="uch(this,'default')" style="background: rgb(187, 173, 160); color: rgb(187, 173, 160); border: none;"
+                class="active">
+                </span>
+                <span id="csbtn_pink2" onclick="uch(this,'pink2')" style="background: rgb(196, 69, 105); color: rgb(196, 69, 105); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_red" onclick="uch(this,'red')" style="background: rgb(192, 57, 43); color: rgb(192, 57, 43); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_yellow" onclick="uch(this,'yellow')" style="background: rgb(243, 156, 18); color: rgb(243, 156, 18); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_blue" onclick="uch(this,'blue')" style="background: rgb(41, 128, 185); color: rgb(41, 128, 185); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_blue2" onclick="uch(this,'blue2')" style="background: rgb(87, 75, 144); color: rgb(87, 75, 144); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_violet" onclick="uch(this,'violet')" style="background: rgb(142, 68, 173); color: rgb(142, 68, 173); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_green" onclick="uch(this,'green')" style="background: rgb(22, 160, 133); color: rgb(22, 160, 133); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_green2" onclick="uch(this,'green2')" style="background: rgb(39, 174, 96); color: rgb(39, 174, 96); border: none;"
+                class="">
+                </span>
+                <span id="csbtn_black" onclick="uch(this,'black')" style="background: rgb(44, 62, 80); color: rgb(44, 62, 80); border: none;"
+                class="">
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="section-container1">
+        <article class="article">
+            <h2>2048 Cupcakes </h2>
+            <p>
+            2048 Cupcakes is a variation of the 2048 game with cupcake theme, which took the internet by storm in 2014. The game is so addictive that you can play it for hours without getting bored. If you love math games, this one is for you. Don’t worry if you're not a math genius — you don’t need to be an expert to play. Even kids who enjoy online games can play it.
+            </p>
+            <p>
+                2048 Cupcakes is similar to the original 2048 game. The only difference is that, in the version, you’ll see a variety of cupcakes instead of numbers. Every time you merge two identical cupcakes, a new cupcake appears. The names of the cupcakes are:
+            </p>
+            <div class="cupcake-images">
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/vanilla-cupcake.webp" alt="vanilla-cupcake" title="vanilla-cupcake">
+                        <p>Vanilla-cupcake (2 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/strawberry-vanilla-cupcake.webp" alt="strawberry-vanilla-cupcake" title="strawberry-vanilla-cupcake">
+                        <p>strawberry-vanilla-cupcake (4 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/lemon-cupcake.webp" alt="lemon-cupcake" title="lemon-cupcake">
+                        <p>lemon-cupcake (8 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/red-velvet-cupcake.webp" alt="red-velvet-cupcake" title="red-velvet-cupcake">
+                        <p>red-velvet-cupcake (16 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/mint-cupcake.webp" alt="mint-cupcake" title="mint-cupcake">
+                        <p>mint-cupcake (32 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/jumbo-oreo-cupcake.webp" alt="jumbo-oreo-cupcake" title="jumbo-oreo-cupcake">
+                        <p>jumbo-oreo-cupcake (64 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/birthday-cupcake.webp" alt="birthday-cupcake" title="birthday-cupcake">
+                        <p>birthday-cupcake (128 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/royal-blue-cupcake.webp" alt="royal-blue-cupcake" title="royal-blue-cupcake">
+                        <p>royal-blue-cupcake (256 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/caramel-cupcake.webp" alt="caramel-cupcake" title="caramel-cupcake">
+                        <p>caramel-cupcake (512 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/pink-champagne-cupcake.webp" alt="pink-champagne-cupcake" title="pink-champagne-cupcake">
+                        <p>pink-champagne-cupcake (1024 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/christmas-cupcake.webp" alt="christmas-cupcake" title="christmas-cupcake">
+                        <p>christmas-cupcake (2048 points)</p>
+                    </div>
+                </div>
+                <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/cupcakes/gold-cupcake.webp" alt="gold-cupcake" title="gold-cupcake">
+                        <p>gold-cupcake (4096 points)</p>
+                    </div>
+                </div>
+                <!-- <div class="single">
+                    <div class="clearfix">
+                        <img src="/img/gold-cupcake.jpg" alt="gold-cupcake">
+                        <p>gold-cupcake (2 points)</p>
+                    </div>
+                </div> -->
+            </div>
+            <h2>How to Play the Game</h2>
+            <p>
+                The main advantage of an online game is that you can play it on any device that supports internet browsing, using the latest browser application or software. Since 2048 Cupcakes is an online game, you can enjoy it on your laptop, iPad, or any mobile device. You can also play the game offline — just make sure to load the game in your browser at least once.
+            </p>
+            <p>
+                The game supports both keystrokes and swipe gestures. This means you can play using a keyboard or a touchscreen. Use the arrow keys to move the cupcakes in four directions (up, down, left, and right). On touchscreen devices, simply swipe to move the tiles.
+            </p>
+            <p>
+                As you move the tiles, if two adjacent tiles with the same cupcake collide, they will merge into a new cupcake. Don’t focus only on scoring high — try to merge identical cupcakes to create upgraded ones until you reach cupcake number 2048. Once you reach it, you win the game. After that, you can keep playing if you wish.
+            </p>
+        </article>
+    </section>
+    <section class="section-container2">
+        <div class="featured-game-container">
+            <h2>Play Other Games</h2>
+            <div class="games">
+                <a href="/" class="game-item" target="_blank" style="text-decoration: none;
+    border-radius: 10px;">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+                <a href="/" class="game-item" target="_blank">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+                <a href="/" class="game-item" target="_blank">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+                <a href="/" class="game-item" target="_blank">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+                <a href="/" class="game-item" target="_blank">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+                <a href="/" class="game-item" target="_blank">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+                <a href="/" class="game-item" target="_blank">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+                <a href="/" class="game-item" target="_blank">
+                  <div class="game-item__img">
+                    <img src="/img/block-blast-play.png?v3" alt="Block Blast" title="">
+                  </div>
+                  <div class="game-item__info">
+                    <div class="game-item__title">Block Blast</div>
+                    <div class="game-item__text">Place blocks, clear rows, and score points!</div>
+                    <div class="game-item__bottom">
+                       <div class="game-item__play">Play</div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="section-container3">
+        <div class="section-lang">
+            <h2>Select Language</h2>
+            <div class="links">
+                <div class="links__link active">
+                    English
+                </div>
+                <a class="links__link" href="/es">
+                    Español
+                </a>
+                <a class="links__link" href="/fr">
+                    Français
+                </a>
+                <a class="links__link" href="/de">
+                    Deutsch
+                </a>
+                <a class="links__link" href="/pt">
+                    Português
+                </a>
+                <a class="links__link" href="/it">
+                    Italiano
+                </a>
+                <a class="links__link" href="/pl">
+                    Polski
+                </a>
+                <a class="links__link" href="/sv">
+                    Svenska
+                </a>
+                <a class="links__link" href="/ru">
+                    Русский
+                </a>
+                <a class="links__link" href="/tr">
+                    Türkçe
+                </a>
+               <a class="links__link" href="/id">
+                    Indonesian
+                </a>
+                <a class="links__link" href="/ja">
+                    日本語
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="section-container3">
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ol>
+                <li>
+                    <h3>What is 2048?</h3>
+                    <p>2048 is a popular single-player puzzle game where the objective is to slide numbered tiles on a grid, merging tiles with the same number to reach the 2048 tile and beyond.</p>
+                </li>
+                <li>
+                    <h3>How do I play 2048?</h3>
+                    <p>You use the arrow keys on your keyboard or swipe on a touch-enabled device to slide the tiles on the grid in four directions: up, down, left, and right. When two tiles with the same number collide, they merge into one and their value gets doubled. The ultimate goal is to create a tile with the number 2048.</p>
+                </li>
+                <li>
+                    <h3>What happens when I reach 2048?</h3>
+                    <p>When you reach the 2048 tile, you can choose to continue playing and aim for higher numbers, or you can consider the game won and start a new game.</p>
+                </li>
+                <li>
+                    <h3>Is there a strategy to win 2048?</h3>
+                    <p>While there is no guaranteed strategy to win every time, some tips include focusing on merging larger numbers, creating a clear path for tiles to move, and avoiding filling up the board too quickly.</p>
+                </li>
+                <li>
+                    <h3>Can I undo a move in 2048?</h3>
+                    <p>In our game 2048 you cannot undo a move, so it is important to think ahead and plan your moves carefully.</p>
+                </li>
+                <li>
+                    <h3>Is there a time limit to complete a game of 2048?</h3>
+                    <p>No, there is no time limit to complete a game of 2048. You can take your time planning moves and thinking ahead.</p>
+                </li>
+                <li>
+                    <h3>Can I play 2048 on my mobile device?</h3>
+                    <p>Yes, 2048 is mobile friendly. You can easily open 2048 in any mobile browser and use the touch screen to move the tiles.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section class="section-container4">
+        <article class="article">
+            <h2>About 2048 Game</h2>
+            <p>
+                2048 is a popular single-player puzzle game that was created by Italian web developer Gabriele Cirulli in 2014. The game is played on a 4x4 grid and the objective is to combine tiles with the same number to create a tile with the number 2048.
+The game starts with two tiles displaying the number 2, which can be combined to form a tile with the number 4. The player then moves the tiles on the grid to combine tiles with the same number, ultimately aiming to create the tile with the number 2048. The game is won when the player reaches the 2048 tile, but can continue playing to reach higher numbers.
+            </p>
+            <p>
+                2048 is played using the arrow keys on the keyboard or swiping on a touch screen to move the tiles in any of the four directions - up, down, left, or right. When two tiles with the same number collide, they merge into one tile with a value that is the sum of the original tiles.
+            </p>
+            <p>
+                One of the appealing aspects of 2048 is that it is easy to learn but difficult to master. The game requires strategic thinking and careful planning to reach the goal, and can be both challenging and addicting. The game is also free and widely available, making it accessible to a large audience.
+            </p>
+            <p>
+                In conclusion, 2048 is a fun and challenging puzzle game that requires strategic thinking and careful planning. It is easy to learn, but difficult to master, and can be enjoyed by people of all ages. Whether you're looking for a mental challenge or just a fun way to pass the time, give 2048 a try!
+            </p>
+        </article>
+    </section>
+    <section class="section-container5">
+        <div class="section-rate">
+            <h2>Rate 2048:</h2>
+            <div class="rate">
+                <div class="rate__stars">
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5" />
+                        <label for="star5" title="5 stars"></label>
+                        <input type="radio" id="star4" name="rating" value="4" checked />
+                        <label for="star4" title="4 stars"></label>
+                        <input type="radio" id="star3" name="rating" value="3" />
+                        <label for="star3" title="3 stars"></label>
+                        <input type="radio" id="star2" name="rating" value="2" />
+                        <label for="star2" title="2 stars"></label>
+                        <input type="radio" id="star1" name="rating" value="1" />
+                        <label for="star1" title="1 star"></label>
+                    </div>
+                </div>
+                <div class="rate__numbers"><b>4.2</b> / 5</div>
+                <div class="rate__votes"><span>2,753</span> votes</div>
+            </div>  
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container-fluid">
+            <div class="row align-items-center" style="padding-top:0.5rem;padding-bottom: 0.5rem;">
+                <div class="col-md-12 text-center">
+                    <div class="footer-links">
+                        <a href="user_agreement.html" class="footer-link">User Agreement</a>
+                        <span class="separator">|</span>
+                        <a href="privacy_policy.html" class="footer-link">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="footer-links">
+                        ©  2015 -2025 2048cupcakes Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script>
+      if (!window.jQuery) {
+        document.write('<script src="js/jquery.min.js"><\/script>');
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      if (!window.axios) {
+        document.write('<script src="js/axios.min.js"><\/script>');
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      if (typeof $().modal == 'undefined') {
+        document.write('<script src="js/bootstrap.bundle.min.js"><\/script>');
+      }
+    </script>
+    <script src="js/script.js?t=2"></script>
+    <script src="js/tool.js?t=1"></script>
+    <script src="js/bind_polyfill.js"></script>
+      <script src="js/classlist_polyfill.js"></script>
+      <script src="js/animframe_polyfill.js"></script>
+      <script src="js/keyboard_input_manager.js"></script>
+      <script src="js/html_actuator.js"></script>
+      <script src="js/grid.js"></script>
+      <script src="js/tile.js"></script>
+      <script src="js/local_storage_manager.js"></script>
+      <script src="js/game_manager.js"></script>
+      <script src="js/application.js"></script>
+    </body>
+</html> 
+<script> 
+    // 搜索功能
+    $('#top-search-form').on('submit', function(event) {
+        event.preventDefault();
+        var searchTerm = $("#top-search-form input").val().trim();
+        if (searchTerm) {
+            window.open('https://www.google.com/search?q=' + encodeURIComponent(searchTerm));
+            document.activeElement.blur(); // 关闭软键盘
+        }
+    });
+    
+    $('#top-search-form input').keypress(function(event) {
+        var keycode = event.which || event.keyCode;
+        var txt = $("#top-search-form input").val().trim();
+        if (keycode == '13') {
+            event.preventDefault();
+            if (txt) {
+                window.open('https://www.google.com/search?q=' + encodeURIComponent(txt));
+                document.activeElement.blur(); // 关闭软键盘
+            }
+        }
+    });
+    
+    // 侧边栏菜单功能
+    function toggleSideMenu() {
+        const sideMenu = document.getElementById('side-menu');
+        sideMenu.classList.toggle('open');
+    }
+    
+    // 关闭侧边栏
+    document.querySelector('.side-panel .close-btn').addEventListener('click', function() {
+        document.getElementById('side-menu').classList.remove('open');
+    });
+    
+    // 点击侧边栏外部关闭
+    document.addEventListener('click', function(event) {
+        const sideMenu = document.getElementById('side-menu');
+        const menuBar = document.querySelector('.menu-bar');
+        
+        if (sideMenu.classList.contains('open') && 
+            !sideMenu.contains(event.target) && 
+            !menuBar.contains(event.target)) {
+            sideMenu.classList.remove('open');
+        }
+    });
+    
+    // 星级评分功能
+    document.addEventListener('DOMContentLoaded', function() {
+        const starInputs = document.querySelectorAll('.star-rating input[type="radio"]');
+        const ratingNumbers = document.querySelector('.rate__numbers b');
+        const ratingVotes = document.querySelector('.rate__votes span');
+        
+        // 默认显示4星评分
+        let currentRating = 4;
+        let currentVotes = 2753;
+        
+        // 更新显示的评分
+        function updateRatingDisplay() {
+            ratingNumbers.textContent = currentRating + '.0';
+            ratingVotes.textContent = (currentVotes + 1).toLocaleString();
+        }
+        
+        // 为每个星级添加点击事件
+        starInputs.forEach(function(input) {
+            input.addEventListener('change', function() {
+                currentRating = parseInt(this.value);
+                currentVotes++;
+                updateRatingDisplay();
+                
+                // 可以在这里添加发送评分到服务器的代码
+                console.log('用户评分为:', currentRating, '星');
+            });
+        });
+        
+        // 初始化显示
+        updateRatingDisplay();
+    });
+    
+    
+</script>

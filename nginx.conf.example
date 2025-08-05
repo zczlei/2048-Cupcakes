@@ -1,0 +1,24 @@
+# Nginx配置示例 - 设置X-Robots-Tag
+server {
+    listen 80;
+    server_name 2048cupcakes.art;
+    
+    # 设置X-Robots-Tag响应头
+    add_header X-Robots-Tag "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" always;
+    
+    # 其他SEO相关的响应头
+    add_header X-Content-Type-Options nosniff;
+    add_header X-Frame-Options SAMEORIGIN;
+    add_header X-XSS-Protection "1; mode=block";
+    
+    location / {
+        root /var/www/html;
+        index index.html index.htm;
+        
+        # 启用gzip压缩
+        gzip on;
+        gzip_vary on;
+        gzip_min_length 1024;
+        gzip_types text/plain text/css text/xml text/javascript application/javascript application/xml+rss application/json;
+    }
+} 

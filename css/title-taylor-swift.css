@@ -1,0 +1,90 @@
+.game-container{
+    margin-top: 20px;
+    background:rgb(192, 57, 43);
+}
+.tile .tile-inner {
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 0px;
+}
+
+.tile.tile-2 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/taylor-swift-(2006).webp');
+    background-size: cover;
+}
+
+.tile.tile-4 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/fearless-(2008).webp');
+    background-size: cover;
+}
+
+.tile.tile-8 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/speak-now-(2010).webp');
+    background-size: cover;
+}
+
+.tile.tile-16 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/red-(2012).webp');
+    background-size: cover;
+}
+
+.tile.tile-32 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/1989-(2014).webp');
+    background-size: cover;
+}
+
+.tile.tile-64 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/reputation-(2017).webp');
+    background-size: cover;
+}
+
+.tile.tile-128 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/lover-(2019).webp');
+    background-size: cover;
+}
+
+.tile.tile-256 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/folklore-(2020).webp');
+    background-size: cover;
+}
+
+.tile.tile-512 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/evermore-(2020).webp');
+    background-size: cover;
+}
+
+.tile.tile-1024 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/midnights-(2022).webp');
+    background-size: cover;
+}
+
+.tile.tile-2048 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/taylor-swift-2048/the-tortured-poets-department-(2024).webp');
+    /* use ../img/pumpkin-cupcake.jpg for fall */
+    background-size: cover;
+}
+/*.tile.tile-8192 .tile-inner {
+    font-size: 0px;
+    background-image: url("/img/taylor-swift-2048/red-(Taylor's-Version).webp");
+    background-size: cover;
+}*/
+
+.tile.tile-super .tile-inner {
+    font-size: 0px;
+    background-image: url("/img/taylor-swift-2048/red-(Taylor's-Version).webp");
+    background-size: cover;
+}

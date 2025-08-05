@@ -1,0 +1,81 @@
+.tile .tile-inner {
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 0px;
+}
+
+.tile.tile-2 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/vanilla-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-4 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/strawberry-vanilla-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-8 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/lemon-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-16 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/red-velvet-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-32 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/mint-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-64 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/jumbo-oreo-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-128 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/birthday-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-256 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/royal-blue-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-512 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/caramel-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-1024 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/pink-champagne-cupcake.webp');
+    background-size: cover;
+}
+
+.tile.tile-2048 .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/christmas-cupcake.webp');
+    /* use ../img/pumpkin-cupcake.jpg for fall */
+    background-size: cover;
+}
+
+.tile.tile-super .tile-inner {
+    font-size: 0px;
+    background-image: url('/img/cupcakes/gold-cupcake.webp');
+    background-size: cover;
+}
